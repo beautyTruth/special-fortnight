@@ -11,6 +11,6 @@ function otherMovie() {
 }
 
 otherMovie();
-againMovie("The Revenant");
+// againMovie("The Revenant"); // will throw an error because the againMovie() function is only executable within the scope in which it is declared. If it was declared outside of the otherMovie() function, it would run without throwing an error.
 
 // be good to yourself
