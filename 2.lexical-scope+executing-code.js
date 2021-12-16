@@ -1,8 +1,8 @@
-var novel = "Dune"; 
+var novel = "Dune";
 
 function otherBook() {
-  var novel = "Moby Dick"; 
-  console.log('Some Book')
+  var novel = "Moby Dick"; // though unused, this variable's value is declared and stored in memory (for possible use)
+  console.log("Some Book");
 }
 
 function writeBook() {
@@ -12,3 +12,5 @@ function writeBook() {
 
 otherBook();
 writeBook();
+
+// JAVASCRIPT IS A LEXICALLY SCOPED LANGUAGE
